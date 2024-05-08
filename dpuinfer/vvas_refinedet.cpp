@@ -119,7 +119,7 @@ vvas_refinedet::run (void * handle, std::vector < cv::Mat > &images,
         vvas_inferprediction_append (parent_predict, predict);
 
         LOG_MESSAGE (LOG_LEVEL_INFO, kpriv->log_level,
-            "RESULT: %f %f %f %f (%f)", xmin, ymin, xmax, ymax, confidence);
+            "RESULT: %f %f %f %f (%f) sadgexmymache", xmin, ymin, xmax, ymax, confidence);
         cur_objs++;
         if (cur_objs == kpriv->objs_detection_max) {
           LOG_MESSAGE (LOG_LEVEL_DEBUG, kpriv->log_level,
